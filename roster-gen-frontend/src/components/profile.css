@@ -1,0 +1,234 @@
+/* Profile.css */
+.profile-container {
+    text-align: center;
+  }
+  
+  .profile-card {
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 13px;
+    width: 35%;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details {
+    text-align: left;
+  }
+  
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .profile-field label {
+    font-weight: bold;
+    color: #2782e2;
+  }
+  
+  .profile-field input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Background color for inputs */
+  }
+  
+  .btn-update {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-update:hover {
+    background-color: #0056b3;
+  }
+  
+/* profile.css */
+.timetable-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .timetable-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .timetable-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .timetable-actions .btn-generate, .timetable-actions .btn-download {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .timetable-actions .btn-generate:hover, .timetable-actions .btn-download:hover {
+    background-color: #0056b3;
+  }
+  
+  .timetable-display {
+    overflow-x: auto;
+  }
+  
+  .timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .timetable-table th, .timetable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .timetable-table th {
+    background-color: #f2f2f2;
+  }
+  /* Spinner Styles */
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #007bff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 4s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  @media (max-width: 600px) {
+    .timetable-actions {
+      flex-direction: column;
+    }
+  
+    .timetable-actions .btn-generate, .timetable-actions .btn-download {
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+  
+  /* Page2.css */
+.btn-add {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-icon {
+    margin-right: 8px;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .edit-icon:hover,
+  .delete-icon:hover {
+    color: #007bff;
+  }
+  
+  .action-icons {
+    display: flex;
+    align-items: center;
+  }
+  h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #584e4e;
+  }
+  /* profile.css */
+.formContainer {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  background-color: #f9f9f9;
+}
+
+.formContainer h1 {
+  color: #2782e2;
+  margin-bottom: 20px;
+}
+
+.formContainer label {
+  display: block;
+  font-weight: bold;
+  color: #2782e2;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.formContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formContainer button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formContainer button:hover {
+  background-color: #0056b3;
+}
+
+.saveBtn {
+  cursor: pointer;
+  margin-top: 20px;
+}

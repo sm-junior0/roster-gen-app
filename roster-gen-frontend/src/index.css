@@ -1,0 +1,47 @@
+src/index.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* src/components/Dashboard.css */
+.dashboard {
+  width: 200px;
+  background-color: rgb(34, 31, 31);
+  color: #ffffff;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard ul li {
+  margin: 20px 0;
+}
+
+.dashboard ul li a {
+  color: #fcfeff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard ul li a:hover {
+  background-color: #79878d;
+}
+
+.dashboard ul li a svg {
+  margin-right: 10px;
+}

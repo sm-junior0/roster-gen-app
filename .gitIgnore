@@ -1,0 +1,10 @@
+# Node.js and npm
+node_modules/
+package-lock.json
+
+# React and frontend
+frontend/build/
+frontend/node_modules/
+
+# Backend
+backend/node_modules/
